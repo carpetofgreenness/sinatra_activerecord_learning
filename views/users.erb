@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Make Account</title>
+</head>
+<body>
+	<p>
+		The last user is <%= @user_last.name%>
+	</p>
+	<img src= <%= @user_last.pic %> >
+	<h1>
+		<%= Faker::ChuckNorris.fact %>
+	</h1>
+</html>
